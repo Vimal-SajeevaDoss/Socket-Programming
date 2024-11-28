@@ -6,7 +6,7 @@ Project Title: Simplified File Transfer Protocol (FTP) Implementation Using Pyth
 Authors and Contact Information:
 
 1. Hafsa Nasir -
-2. Desire Hernandez -
+2. Desire Hernandez - deshernandez2025@csu.fullerton.efu
 3. Vimal Sajeeva Doss - vimalsajeeva@csu.fullerton.edu
 
 
