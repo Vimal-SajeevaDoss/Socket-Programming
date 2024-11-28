@@ -21,7 +21,9 @@ Prerequisites
 1. Python Version: Ensure Python 3.x is installed on your system. You can verify by running:
 python3 --version
 2. Network Environment:
+   
 ● Server and client should be on the same network (e.g., localhost) for testing.
+
 ● If running on different machines, ensure they can communicate over the specified
 port.
 
