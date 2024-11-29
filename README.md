@@ -84,3 +84,40 @@ put <FILENAME>
 5. Quit the session: quit
 
 This will close the connection and terminate the client application.
+
+
+Special Notes:
+
+1. Control and Data Channels:
+
+The program will make use of two channels:
+
+   ● One permanent control channel for commands - ls, get, put, quit
+   
+   ● One temporary ephemeral data channel for file transfers - get and put
+
+2. Error Handling:
+
+   ● If a file that has been requested does not exist on either the client or server, there must be an appropriate error message 
+     shown.
+   
+   ● Any invalid commands will simply be ignored and the client would remain open for further input.
+
+3. File Locations:
+
+   ● Files to upload - put must be in the client working directory.
+   
+   ● Files to be downloaded (get) should be in the server working directory.
+
+5. Testing Environment:
+
+   ● The system was tested on localhost, aka 127.0.0.1.
+   
+   ● It is strongly encouraged to test on a local network if testing for multisystem setup.
+
+5. Port Configuration:
+
+   ● Same port number to be used by both server and client.
+   
+   ● Do not use low order ports (ports below 1024) unless running with privileges as administrator.
+
